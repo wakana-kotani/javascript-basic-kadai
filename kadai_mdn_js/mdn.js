@@ -1,12 +1,12 @@
 const today = new Date();
 
 //年の関数
-const year = today.getUTCFullYear() + '年';
+const year = today.getFullYear() + '年';
 
 //月の関数
-const month = today.getUTCMonth() +1 + '月';
+const month = today.getMonth() +1 + '月';
 
 //日の関数
-const dayOfMonth = today.getUTCDate() + '日';
+const dayOfMonth = today.getDate() + '日';
 
-console.log(year,month,dayOfMonth);
+console.log(year + month + dayOfMonth);
